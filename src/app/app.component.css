@@ -1,0 +1,16 @@
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .input-group-addon {
+        min-width: 140px;
+    }
+}
+
+.has-success .glyphicon-ok {
+    display: inline-block !important;
+}
